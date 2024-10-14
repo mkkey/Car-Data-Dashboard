@@ -21,7 +21,6 @@ Each graph has an associated checkbox, allowing users to **selectively view** th
 - **Pandas**: For data manipulation and analysis.
 - **Plotly Express**: For interactive visualizations.
 
-
 ## Installation and Setup
 To run the project locally, follow the steps below:
 
@@ -56,3 +55,7 @@ The dashboard includes a series of visualizations that can be toggled on and off
 - Some brands, like **Mercedes-Benz**, have higher median prices due to the **luxury segment**.
 - There are **significant price variations** between brands, which may be attributed to differences in the model features, brand positioning, and market value.
 - The **age of cars** affects their **price**, with prices generally decreasing as cars get older, reflecting typical vehicle depreciation patterns.
+
+## Deployment
+The web application is deployed using the **Render** platform. To see the live version of the project, visit the link below:
+- [Deployed Application](https://car-data-dashboard.onrender.com)
