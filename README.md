@@ -13,8 +13,7 @@ The web application includes the following visualizations:
 4. **Car Age vs. Price Scatter Plot**: Scatter plot of car age versus price.
 5. **Number of Listings per Brand**: Bar plot showing the number of car listings by brand.
 6. **Price Distribution by Brand**: Box plot showing price distributions for each brand.
-
-Each graph has an associated checkbox, allowing users to **selectively view** the visualizations.
+7. **Dynamic Histogram**: A histogram that allows users to dynamically select both the X and Y-axis, providing interactive exploration of different variables in the used car dataset.
 
 ## Technologies Used
 - **Streamlit**: For creating the web application.
@@ -44,11 +43,13 @@ The dataset contains information about used car listings and includes the follow
 - **days_listed**: Number of days the advertisement remained active.
 
 ## Usage
-The dashboard includes a series of visualizations that can be toggled on and off using checkboxes. These visualizations are designed to provide insights into:
+The dashboard includes a series of visualizations that are designed to provide insights into:
 - **Price distributions** of cars based on various attributes.
 - The **relationship between car age and price**, showing how vehicles depreciate over time.
 - The **number of car listings by brand** and their **average prices**.
 - **Price variability** within brands to understand pricing patterns.
+
+Use the checkboxes and dropdowns to interactively explore the data and gain different perspectives on the used car market. These features are intended to make the analysis accessible and adaptable based on your interests.
 
 ## Conclusions
 - The **car prices** are primarily in the **affordable range**, with the majority under **$50,000**.
